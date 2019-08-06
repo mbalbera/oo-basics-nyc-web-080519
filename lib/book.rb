@@ -10,7 +10,7 @@ class Book
   end
   
   def turn_page
-    @pages += 1
+    @page_count += 1
   end 
   
 end 
