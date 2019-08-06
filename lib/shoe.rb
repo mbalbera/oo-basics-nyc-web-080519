@@ -12,7 +12,7 @@ class Shoe
     @condition=condition
   end
   
-  def cobbble
+  def cobble
   end
   
 end 
