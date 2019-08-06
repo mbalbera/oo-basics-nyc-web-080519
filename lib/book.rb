@@ -2,11 +2,15 @@
 
 class Book 
   
-  def initialize(title, author, pages, genre)
+  def initialize(title, author=nil, pages=nil, genre=nil)
     @title = title
-    author= 
-    pages= 
-    genre= 
+    @author= author
+    @pages= pages
+    @genre= genre
   end
+  
+  def turnpage
+    @pages += 1
+  end 
   
 end 
